@@ -1,0 +1,8 @@
+# Files to exclude from the distributed plugin zip
+/.distignore
+/.gitignore
+/NOTED_DECISIONS.md
+/overlay-src
+/node_modules
+/.github
+/.wordpress-org

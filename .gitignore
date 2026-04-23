@@ -1,0 +1,13 @@
+# Node
+overlay-src/node_modules/
+
+# Build artifacts are checked in (they ship with the plugin) — do not ignore.
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
