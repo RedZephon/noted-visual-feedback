@@ -91,7 +91,12 @@ This plugin does not connect to any external services. All feedback data is stor
 
 == Source Code ==
 
-The frontend review overlay is a TypeScript module compiled to `assets/js/noted-overlay.min.js`. The human-readable source and build instructions are included with every release under the `overlay-src/` directory inside the plugin. Build with Node 18+:
+The frontend review overlay is a TypeScript module compiled to `assets/js/noted-overlay.min.js`. The human-readable source and build instructions are available in two places:
+
+1. **Public repository:** [https://github.com/RedZephon/noted-visual-feedback](https://github.com/RedZephon/noted-visual-feedback)
+2. **Included with every release** under the `overlay-src/` directory inside the plugin zip.
+
+Build with Node 18+:
 
 `cd overlay-src && npm install && npm run build`
 
